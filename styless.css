@@ -1,0 +1,89 @@
+body {
+    font-family: 'Righteous', cursive;
+    background: linear-gradient(to bottom, #132D46, #000000);
+    margin: 0;
+    text-align: justify;
+    padding: 20px; /* Adicione algum espaço para melhor legibilidade */
+    
+}
+
+.titulo {
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+    color: #01C38D;
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tulpen One', cursive;
+    text-align: justify;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+
+h2{
+    color: #01C38D;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tulpen One', cursive;
+
+}
+
+.container1 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria três colunas iguais */
+    gap: 7px; /* Espaço entre as bordas */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.glass-box {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.container2 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria três colunas iguais */
+    gap: 7px; /* Espaço entre as bordas */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.glass-box {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+h3{
+    color: #01C38D;
+    font-size: 35px;
+    font-family: 'Tulpen One', cursive;
+    
+}
+.text {
+    color: #01C38D;
+}
+
+.imagem-container {
+    align-items: center; /* Alinhar a imagem no centro horizontalmente */
+    text-align: center;
+}
+
+.imagem-container img {
+    max-width: 1000px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
